@@ -1,0 +1,176 @@
+/****************Tag Selector****************/
+
+a {
+  color: #11999E;
+  margin: 10px 10px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6f6;
+}
+
+a h3:hover {
+  color: #66BFBF;
+}
+
+body {
+  color: #40514E;
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color:#66BFBF;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.265rem;
+  line-height: 2;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  color:#66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  padding: 19px 0 10px;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+hr {
+  background-color: inherit;
+  border: dotted grey 8px;
+  border-bottom: none;
+  width:5%;
+  margin: 100px auto;
+}
+
+p {
+  line-height: 2;
+}
+
+span {
+  text-decoration: underline;
+}
+
+/****************ID Selector****************/
+
+#title {
+  font-size: 2rem;
+}
+
+/****************Class Selector****************/
+
+.bio {
+  width: 20%;
+  margin:auto;
+}
+
+.blog {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.bottom-cloud {
+  bottom: 300px;
+  left: 260px;
+  position: absolute;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 40px 0;
+}
+
+
+.btn {
+   background: #5EE1E1;
+   color: #FFFFFF;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 16px;
+   font-weight: 100;
+   padding: 11px;
+   border: solid #66BFBF 0;
+   margin:64px auto 0;
+}
+
+.btn:hover {
+   background: #11999E;
+   border: solid #11999E 0;
+   -webkit-border-radius: 7px;
+   -moz-border-radius: 7px;
+   border-radius: 7px;
+}
+
+.concert {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-msg {
+  width:25%;
+  margin:auto;
+}
+
+.copyright {
+  color:#EAF6F6;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.85rem;
+  margin: 0;
+  padding: 30px 0 0 0;
+}
+
+.note {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.middle-container {
+  margin: 100px 0 100px 0;
+}
+
+.profile-pic {
+  width: 8%;
+}
+
+.project-link {
+  margin: 0;
+}
+
+.skill-row {
+  width: 50%;
+  margin:100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.slogan{
+  margin: 50px 0 50px 0;
+}
+
+.top-container {
+  background-color: #f1f6f9;
+  padding-top: 100px;
+  position: relative;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 280px;
+  top: 50px;
+}
+
+.web-design {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
