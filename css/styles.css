@@ -1,7 +1,4 @@
 /****************Tag Selector****************/
-html {
-  box-sizing: border-box;
-}
 
 a {
   color: #11999E;
@@ -26,7 +23,8 @@ body {
 h1 {
   color:#66BFBF;
   font-family: 'Sacramento', cursive;
-  font-size: 3rem;
+  font-size: 4rem;
+  font-weight: bold;
   line-height: 2;
   margin: 50px auto 0 auto;
 }
@@ -34,14 +32,14 @@ h1 {
 h2 {
   color:#66BFBF;
   font-family: 'Montserrat', sans-serif;
-  font-size: 2.5rem;
+  font-size: 2.7rem;
   padding: 19px 0 10px;
 }
 
 h3 {
   color: #11999E;
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
@@ -64,20 +62,20 @@ span {
 /****************ID Selector****************/
 
 #title {
-  font-size: 1.2rem;
+  font-size: 1.8rem;
 }
 
 /****************Class Selector****************/
 
 .bio {
-  width: 20%;
+  font-size: 1.2rem;
+  width: 38%;
   margin:auto;
 }
 
 .blog {
-  width: 25%;
-  float: right;
-  margin-left: 30px;
+  width: 32%;
+  margin-bottom: 25px;
 }
 
 .bottom-cloud {
@@ -100,7 +98,7 @@ span {
    font-weight: 100;
    padding: 11px;
    border: solid #66BFBF 0;
-   margin:64px auto 0;
+   margin:64px auto 64px;
 }
 
 .btn:hover {
@@ -112,7 +110,8 @@ span {
 }
 
 .contact-msg {
-  width:25%;
+  font-size: 1.15rem;
+  width:38%;
   margin:auto;
 }
 
@@ -125,13 +124,12 @@ span {
 }
 
 .note {
-  width: 25%;
-  float: left;
-  margin-right: 30px;
+  width: 32%;
+  margin-bottom: 30px;
 }
 
 .mountain {
-  width: 58%;
+  width: 48%;
 }
 
 .middle-container {
@@ -139,21 +137,26 @@ span {
 }
 
 .profile-pic {
-  width: 8%;
+  width: 13%;
 }
 
 .project-link {
   margin: 0;
 }
 
+.skill-description {
+  font-size: 1.2rem;
+}
+
 .skill-row {
   width: 50%;
   margin:100px auto 100px auto;
-  text-align: left;
+  text-align: center;
   line-height: 2;
 }
 
 .slogan{
+  font-size: 1.38rem;
   margin: 50px 0 50px 0;
 }
 
@@ -170,9 +173,8 @@ span {
 }
 
 .web-design {
-  width: 25%;
-  float: left;
-  margin-right: 30px;
+  width: 29%;
+  margin-bottom: 25px;
 }
 
 
@@ -184,14 +186,13 @@ span {
     font-size: 5.265rem;
   }
 
-  #title {
-    font-size: 2rem;
+  h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
   }
 
-  .top-cloud {
-    position: absolute;
-    right: 280px;
-    top: 50px;
+  #title {
+    font-size: 2rem;
   }
 
   .bottom-cloud {
@@ -200,8 +201,62 @@ span {
     position: absolute;
   }
 
+  .bio {
+    font-size: 1rem;
+    width: 20%;
+  }
+
+  .blog {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+  }
+
+  .btn {
+     margin:64px auto 64px;
+  }
+
+  .contact-msg {
+    width:25%;
+    margin:auto;
+  }
+
+  .note {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+  }
+
   .mountain {
     width: 42%;
+  }
+
+  .profile-pic {
+    width: 10%;
+  }
+
+  .skill-row {
+    text-align: left;
+  }
+
+  .skill-description {
+    font-size: 1rem;
+  }
+
+  .slogan{
+    margin: 50px 0 50px 0;
+  }
+
+  .top-cloud {
+    position: absolute;
+    right: 280px;
+    top: 50px;
+  }
+
+  .web-design {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
   }
 
 }
