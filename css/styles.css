@@ -1,4 +1,7 @@
 /****************Tag Selector****************/
+html {
+  box-sizing: border-box;
+}
 
 a {
   color: #11999E;
@@ -17,14 +20,13 @@ a h3:hover {
 body {
   color: #40514E;
   font-family: 'Merriweather', serif;
-  margin: 0;
   text-align: center;
 }
 
 h1 {
   color:#66BFBF;
   font-family: 'Sacramento', cursive;
-  font-size: 5.265rem;
+  font-size: 3rem;
   line-height: 2;
   margin: 50px auto 0 auto;
 }
@@ -62,7 +64,7 @@ span {
 /****************ID Selector****************/
 
 #title {
-  font-size: 2rem;
+  font-size: 1.2rem;
 }
 
 /****************Class Selector****************/
@@ -79,8 +81,8 @@ span {
 }
 
 .bottom-cloud {
-  bottom: 300px;
-  left: 260px;
+  bottom: 220px;
+  left: 70px;
   position: absolute;
 }
 
@@ -109,12 +111,6 @@ span {
    border-radius: 7px;
 }
 
-.concert {
-  width: 25%;
-  float: right;
-  margin-left: 30px;
-}
-
 .contact-msg {
   width:25%;
   margin:auto;
@@ -132,6 +128,10 @@ span {
   width: 25%;
   float: left;
   margin-right: 30px;
+}
+
+.mountain {
+  width: 58%;
 }
 
 .middle-container {
@@ -165,7 +165,7 @@ span {
 
 .top-cloud {
   position: absolute;
-  right: 280px;
+  right: 100px;
   top: 50px;
 }
 
@@ -173,4 +173,35 @@ span {
   width: 25%;
   float: left;
   margin-right: 30px;
+}
+
+
+
+/* Desktop screen */
+
+@media (min-width: 760px) {
+  h1 {
+    font-size: 5.265rem;
+  }
+
+  #title {
+    font-size: 2rem;
+  }
+
+  .top-cloud {
+    position: absolute;
+    right: 280px;
+    top: 50px;
+  }
+
+  .bottom-cloud {
+    bottom: 300px;
+    left: 260px;
+    position: absolute;
+  }
+
+  .mountain {
+    width: 42%;
+  }
+
 }
