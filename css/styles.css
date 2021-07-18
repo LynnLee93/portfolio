@@ -179,7 +179,7 @@ span {
 
 /* Desktop screen */
 
-@media (min-width: 760px) {
+@media (min-width: 1028px) {
   h1 {
     font-size: 5.265rem;
   }
